@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,9 +10,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-black min-h-screen">
-       
+      <main className="bg-white min-h-screen flex flex-col gap-10 justify-center items-center">
+          <Image src="/Images/logo-primary.png" alt="Agrilink Primary Logo" width={162} height={101}/>
+          <p className="font-fredoka text-[18px]">Better Agriculture In A Digital Way</p>
       </main>
     </>
-  )
+  );
 }
