@@ -22,8 +22,8 @@ export default function Home() {
       </Head>
       <main
         className={
-          "bg-white min-h-screen flex flex-col gap-10 justify-center items-center transition duration-[600ms] " +
-          (loading ? "" : "bg-green-100")
+          "min-h-screen w-screen flex flex-col gap-10 justify-center items-center transition duration-[600ms] " +
+          (loading ? "bg-white" : "bg-green-100")
         }
       >
         {/* //? Pre-loading */}
